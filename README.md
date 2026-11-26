@@ -47,8 +47,8 @@ Three `.npy` files with 6 columns of information. For the models, only 2 feature
 ## Results
 
 **Key findings:**
-- SVR beat Random Forest on every metric at all three stations, and it was faster to tune
-- Temperature alone explains only about 10–35% of the variation in rainfall
+- SVR beat Random Forest on every metric at all three stations, and was faster to tune
+- Temperature alone explains little variation in rainfall (R² of only 0.10-0.35)
 - Both models tended to underpredict the wettest months
 
 
